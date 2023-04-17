@@ -1,5 +1,9 @@
 package com.example.FacadeTraining;
 
-public abstract class AbstractClass1 {
+import org.springframework.stereotype.Component;
 
+@Component
+public abstract class AbstractClass1 {
+    private ConcreteDependance1 dependance1;
+    private ConcreteDependace2 dependace2;
 }
